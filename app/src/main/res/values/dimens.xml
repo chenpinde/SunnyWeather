@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="value0">0dp</dimen>
+    <dimen name="value4">4dp</dimen>
+    <dimen name="value10">10dp</dimen>
+    <dimen name="value12">12dp</dimen>
+    <dimen name="value13">13dp</dimen>
+    <dimen name="value15">15dp</dimen>
+    <dimen name="value18">18dp</dimen>
+    <dimen name="value20">20dp</dimen>
+    <dimen name="value60">60dp</dimen>
+    <dimen name="value70">70dp</dimen>
+    <dimen name="value130">130dp</dimen>
+    <dimen name="value530">530dp</dimen>
+
+    <dimen name="font_value12">12sp</dimen>
+    <dimen name="font_value14">14sp</dimen>
+    <dimen name="font_value16">16sp</dimen>
+    <dimen name="font_value18">18sp</dimen>
+    <dimen name="font_value20">20sp</dimen>
+    <dimen name="font_value22">22sp</dimen>
+    <dimen name="font_value70">70sp</dimen>
+</resources>

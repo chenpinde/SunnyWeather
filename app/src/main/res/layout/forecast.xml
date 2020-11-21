@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/value130"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="@dimen/value12"
+    android:layout_marginLeft="@dimen/value15"
+    android:layout_marginRight="@dimen/value15"
+    android:layout_marginTop="@dimen/value15"
     app:cardCornerRadius="@dimen/value4">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/value18"
-        android:layout_gravity="center_vertical">
+        android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/placeName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/value15"
+            android:layout_marginTop="@dimen/value20"
+            android:layout_marginBottom="@dimen/value20"
+            android:text="预报"
             android:textColor="?android:attr/textColorPrimary"
             android:textSize="@dimen/font_value20"/>
-        <TextView
-            android:id="@+id/placeAddress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/value10"
-            android:textColor="?android:attr/textColorSecondary"
-            android:textSize="@dimen/font_value14"/>
+
+        <LinearLayout
+            android:id="@+id/forecastLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
